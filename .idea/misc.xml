@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_compass.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/activity_lazy_media.xml" value="0.3645833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24520416259765626" />
         <entry key="app/src/main/res/layout/activity_shimmer.xml" value="0.3645833333333333" />
         <entry key="app/src/main/res/layout/activity_swipe_refresh.xml" value="0.2748091603053435" />
@@ -13,6 +14,7 @@
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.3645833333333333" />
         <entry key="app/src/main/res/layout/my_item.xml" value="0.3645833333333333" />
         <entry key="app/src/main/res/layout/my_item_placeholder.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/row_item_game_lazy.xml" value="0.25611419677734376" />
         <entry key="app/src/main/res/layout/row_item_swp_refrsh.xml" value="0.1773049645390071" />
       </map>
     </option>

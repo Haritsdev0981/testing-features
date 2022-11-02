@@ -15,4 +15,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="txt_surah">Al - Fatihah</string>
     <string name="swipe_refresh">Swipe Refresh</string>
+    <string name="txt_games">Mobile Legend</string>
+    <string name="lazy_games">RxJava Games</string>
 </resources>

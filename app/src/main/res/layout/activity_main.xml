@@ -36,4 +36,14 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_shimmer_effect"
         android:layout_marginTop="20dp"/>
 
+    <Button
+        android:id="@+id/btn_rxjava"
+        android:text="@string/lazy_games"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_swipe_refresh_effect"
+        android:layout_marginTop="20dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Testingfeatures">
         <activity
+            android:name=".features.the_lazy_media.ui.LazyMediaActivity"
+            android:exported="false" />
+        <activity
             android:name=".features.swipe_refresh_layout.SwipeRefreshActivity"
             android:exported="false" />
         <activity

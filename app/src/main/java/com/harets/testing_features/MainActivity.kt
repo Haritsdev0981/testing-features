@@ -8,6 +8,7 @@ import com.harets.testing_features.features.CompassActivity
 import com.harets.testing_features.features.CompassFragment
 import com.harets.testing_features.features.ShimmerActivity
 import com.harets.testing_features.features.swipe_refresh_layout.SwipeRefreshActivity
+import com.harets.testing_features.features.the_lazy_media.ui.LazyMediaActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,6 +30,9 @@ class MainActivity : AppCompatActivity() {
             }
             btnSwipeRefreshEffect.setOnClickListener {
                 startActivity(Intent(this@MainActivity, SwipeRefreshActivity::class.java))
+            }
+            btnRxjava.setOnClickListener {
+                startActivity(Intent(this@MainActivity, LazyMediaActivity::class.java))
             }
         }
     }
