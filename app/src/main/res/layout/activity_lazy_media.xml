@@ -11,8 +11,9 @@
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_swp_refrh_lazy"
-            tools:listitem="@layout/row_item_swp_refrsh"
+            android:id="@+id/rv_lazy_games"
+            tools:listitem="@layout/row_item_game_lazy"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 

@@ -8,5 +8,5 @@ import retrofit2.http.GET
 interface APIService {
 
     @GET("games")
-    fun getNews(): Flowable<List<LazyResponseItem>>
+    fun getGames(): Flowable<List<LazyResponseItem>>
 }

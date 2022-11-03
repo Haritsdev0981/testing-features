@@ -1,6 +1,5 @@
 package com.harets.testing_features.features.the_lazy_media.viewmodel
 
-import android.annotation.SuppressLint
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -17,7 +16,7 @@ class LazyViewModel : ViewModel() {
 
 
     fun games() {
-        APIConfig().getAPIService().getNews()
+        APIConfig().getAPIService().getGames()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
